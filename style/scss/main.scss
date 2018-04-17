@@ -1,0 +1,122 @@
+// -----------------------Variable
+
+//fonts
+$fantasy: fantasy, sans-serif;
+$philosopher: 'Philosopher', sans-serif;
+
+
+//colors
+$white: white;
+$black: black;
+$grey: #545454;
+$tranparent: rgba(255, 255, 255, 0.65);
+$accent: #006c8e;
+$accent2: rgb(232, 246, 255);
+
+// -----------------------Body
+body{
+  margin: 0;
+  background: url("../../images/garageBG.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+header{
+  background-color: $tranparent;
+  display: flex;
+  ul{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    li{
+      display: inline-block;
+      a{
+        color: $accent;
+        font-family: $philosopher;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background-color: $tranparent;
+  padding: 3em 5em;
+  margin: 3em;
+}
+
+h1{
+  font-family: $fantasy;
+  color: $black;
+}
+
+h2{
+  color: $accent;
+  font-family: $philosopher;
+}
+
+p{
+  color: $accent;
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  min-width: 30vw;
+  min-height: 50vh;
+  ul{
+    list-style-type: none;
+    border-left: 1px solid black;
+    padding: 0 10px;
+    li{
+      a{
+        color: $black;
+        text-decoration: none;
+        font-family: $philosopher;
+      }
+    }
+  }
+}
+
+
+// -------------------------------Form
+form{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: $grey;
+  font-family: $philosopher;
+  input{
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 1em;
+    outline: none;
+    transition: background-color 300ms;
+    &:focus{
+      background-color: $accent2;
+    }
+  }
+}
+
+.submit{
+  margin: 0 auto;
+  width: 30%;
+  background-color: $accent;
+  padding: 0.5em;
+  color: $white;
+  font-family: $fantasy;
+  font-size: 1.3em;
+  transition: 300ms;
+  border: 1px solid $white;
+  &:hover{
+    background-color: $white;
+    color: $accent;
+    border: 1px solid $accent;
+  }
+}

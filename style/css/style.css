@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background: url("../../images/garageBG.jpg") no-repeat;
+  background-size: cover;
+  color: white; }
+
+header {
+  background-color: rgba(255, 255, 255, 0.65);
+  display: flex; }
+  header ul {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none; }
+    header ul li {
+      display: inline-block; }
+      header ul li a {
+        color: #006c8e;
+        font-family: "Philosopher", sans-serif;
+        text-decoration: none; }
+
+main {
+  display: flex;
+  justify-content: center; }
+
+.container {
+  background-color: rgba(255, 255, 255, 0.65);
+  padding: 3em 5em;
+  margin: 3em; }
+
+h1 {
+  font-family: fantasy, sans-serif;
+  color: black; }
+
+h2 {
+  color: #006c8e;
+  font-family: "Philosopher", sans-serif; }
+
+p {
+  color: #006c8e;
+  font-family: Arial, sans-serif; }
+
+.container {
+  min-width: 30vw;
+  min-height: 50vh; }
+  .container ul {
+    list-style-type: none;
+    border-left: 1px solid black;
+    padding: 0 10px; }
+    .container ul li a {
+      color: black;
+      text-decoration: none;
+      font-family: "Philosopher", sans-serif; }
+
+form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #545454;
+  font-family: "Philosopher", sans-serif; }
+  form input {
+    border: 1px solid black;
+    padding: 3px;
+    font-size: 1em;
+    outline: none;
+    transition: background-color 300ms; }
+    form input:focus {
+      background-color: #e8f6ff; }
+
+.submit {
+  margin: 0 auto;
+  width: 30%;
+  background-color: #006c8e;
+  padding: 0.5em;
+  color: white;
+  font-family: fantasy, sans-serif;
+  font-size: 1.3em;
+  transition: 300ms;
+  border: 1px solid white; }
+  .submit:hover {
+    background-color: white;
+    color: #006c8e;
+    border: 1px solid #006c8e; }
+
+/*# sourceMappingURL=style.css.map */
