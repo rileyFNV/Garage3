@@ -45,7 +45,7 @@
             echo "name = 'autokmstand' ";
             echo "value = '" . $auto['autokmstand']. "' ";
             echo " > <br />";
-
+ 
             echo "klantid: <input type='text' ";
             echo "name = 'klantid' ";
             echo "value = '" . $auto['klantid']. "' ";

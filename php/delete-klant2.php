@@ -26,7 +26,7 @@
 
 
         echo "<table>";
-        foreach($read as $rij){
+        foreach($klanten as $rij){
             echo "<tr>";
             echo "<td>" . $rij['klantid'] . "</td>";
             echo "<td>" . $rij['klantnaam'] . "</td>";
