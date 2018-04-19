@@ -1,5 +1,8 @@
 <?php
-require_once "connect.php"
+require_once "connect.php";
+//if ($_SESSION['loggedin'] != true){
+//    header('location:login.html');
+//}
 ?>
 
 <!doctype html>
@@ -45,6 +48,10 @@ require_once "connect.php"
             <li><a href="zoek-auto1.php">Search by License Plate</a></li>
             <li><a href="update-auto1.php">Update</a></li>
             <li><a href="delete-auto1.php">Delete</a></li>
+        </ul>
+        <h2>Gebruiker</h2>
+        <ul>
+            <li><a href="overzicht.php">Overzicht</a></li>
         </ul>
     </div>
 </main>
