@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Log in</title>
+    <link rel="stylesheet" href="../style/css/style.css" type="text/css">
 </head>
 <body>
-<form action="login.php" method="post">
-    <label for="username">Username</label>
-    <input name="username" type="text" id="username">
-    <label for="password">Password</label>
-    <input name="password" type="password" id="password">
-    <button type="submit" value="login">Log in!</button>
-</form>
+
+<div class="container">
+    <form action="login.php" method="post">
+        <div class="combiner">
+            <label for="name">Username:</label>
+            <input name="name" type="text" id="name">
+        </div>
+        <div class="combiner">
+            <label for="password">Password:</label>
+            <input name="password" type="password" id="password">
+        </div>
+        <input class="submit" type="submit" value="Log in">
+    </form>
+</div>
+
 </body>
 </html>

@@ -2,15 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Registratieformulier</title>
+    <title>Registratie</title>
+    <link rel="stylesheet" href="../style/css/style.css" type="text/css">
 </head>
 <body>
-<form action="register.php" method="post">
-    <label for="username">Username</label>
-    <input name="username" type="text" id="username">
-    <label for="password">Password</label>
-    <input name="password" type="password" id="password">
-    <button type="submit" name="submit">Registreer!</button>
-</form>
+
+<div class="container">
+    <form action="register.php" method="post">
+        <label for="username">Username</label>
+        <input name="username" type="text" id="username">
+        <label for="password">Password</label>
+        <input name="password" type="password" id="password">
+        <button class="submit" type="submit" name="submit">Register</button>
+    </form>
+</div>
+
 </body>
 </html>
