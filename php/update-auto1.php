@@ -17,7 +17,7 @@
         <h1>Update Car</h1>
         <form action="update-auto2.php" method="post">
             Welk autokenteken wilt u wijzigen?
-            <input type="text" name="autokentekenvak"> <br />
+            <input id="autokentekenvak" type="text" name="autokentekenvak"> <br />
             <input class="submit" type="submit">
         </form>
     </div>
